@@ -1,0 +1,246 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    color: white ;
+}
+
+.btn{
+    font-size: 20px;
+    background-color: #FFD700;
+    color: #01411C;
+    font-weight: bold;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    background-color: #ffc400e9; 
+    color: white;
+    box-shadow: 0px 0px 10px rgba(255, 217, 0, 0.627);
+    transform: scale(1.05);
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: bold;
+    background: linear-gradient(to right, #ffffff, #FFD700 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #01411c;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    position: relative;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 35px;
+    color: #01411c;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+.yellow{
+    text-decoration: 8px underline #FFD700;
+}
+
+h4{
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+
+/* //////////// header /////////////////// */
+.navbar{
+    background-color: #0c592c !important;
+}
+
+.header img {
+    border: 7px groove #FFD700; 
+    outline: 2px double white; 
+    outline-offset: 2px;
+    border-radius: 5px;
+}
+
+
+
+/* ////////////// hero section ////////////////// */
+
+.hero {
+    margin-top: 65px;
+    background: #01411c ;
+    padding: 120px 0;
+}
+  
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+}
+  
+.hero-item {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+  
+.hero-quote {
+    font-size: 34px;
+    color: #c1c1c1;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.hero-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 4px groove #FFD700;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    background-color:  #01162dbc ;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+ 
+.hero-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px rgba(255, 215, 0, 0.8);
+}
+
+/* /////////// leader section //////////// */
+
+
+.leader {
+    padding: 160px 20px;
+    background-color: #f9f9f9;
+    color: black;
+  }
+  
+.leader-container{
+    flex-direction: column;
+}
+
+.leader-container-all-cards{
+    flex-direction: column;
+    gap: 80px;
+}
+  
+.leader-container  p {
+    text-align: center;
+    color: rgb(91, 91, 91);
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+  
+.leader-card {
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    border-left: 10px solid #01411c; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: white;
+}
+
+.leader-card:hover {
+    transform: translateY(-10px);
+    box-shadow: rgba(4, 64, 3, 0.553) 0px 10px 25px;
+}
+  
+.leader-card-content {
+    flex: 1;
+}
+  
+
+  
+.leader-card-content p {
+    text-align: left;
+    margin-top: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: rgb(91, 91, 91);
+    font-size: 18px;
+    line-height: 1.6;
+}
+  
+.leader-quote {
+    font-size: 18px;
+    font-style: italic;
+    color: #01411c;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.leader-card-image{
+    border-radius: 8px;
+    border: 6px solid #FFD700;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+  
+.leader-card-image img {
+    max-width: 250px;
+    transition: transform 0.4s ease;
+}
+  
+.leader-card-image img:hover {
+    transform: scale(1.05);
+}
+  
+
+.custom-footer {
+    background-color: #01411c;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 50px;
+  }
+  .custom-footer p {
+    margin: 5px 0;
+}
+.custom-footer .small {
+    font-size: 0.85rem;
+    color: #ffcc00;
+}
+
+.zindabad-btn {
+    max-width: 500px;
+    height: 100px;
+    margin: 45px auto 0 auto; 
+    padding: 10px 25px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #FFD700;
+    background-color: #01411c; 
+    border: 2px solid #FFD700;
+    border-radius: 20px 0 20px 0;
+    cursor: pointer;
+    display: block;
+    transition: all 0.3s ease;
+}
+  
+  .zindabad-btn:hover {
+    background-color: #FFD700;
+    color: #01411c;
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
+  }
+  

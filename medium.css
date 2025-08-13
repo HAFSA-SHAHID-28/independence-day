@@ -1,0 +1,45 @@
+.btn{
+    font-size: 18px;
+}
+
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 25px;
+  }
+
+h4{
+    font-size: 20px;
+}
+
+.hero-quote {
+    font-size: 25px;
+}
+
+.leader-container  p {
+    font-size: 20px;
+}
+
+.leader-card {
+    gap: 15px;
+    border-left: 8px solid #01411c; 
+    padding: 15px;
+}
+
+.leader-card-content p {
+    margin-top: 30px;
+    font-size: 16px;
+}
+  
+.leader-quote {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
